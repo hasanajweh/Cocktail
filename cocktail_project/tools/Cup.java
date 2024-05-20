@@ -41,4 +41,8 @@ public class Cup {
     public String getInfo() {
         return String.format("Cup with capacity: %.2f ml, Contains: %.2f ml, Calories: %d", capacity, currentVolume, calories);
     }
+
+    public String getTotalCalories() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

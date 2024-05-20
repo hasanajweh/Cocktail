@@ -3,6 +3,7 @@ package hasan.aziz.cocktail_project.tools;
 import hasan.aziz.cocktail_project.Ingredients.Ingredient;
 import hasan.aziz.cocktail_project.Ingredients.Fruit;
 import hasan.aziz.cocktail_project.Ingredients.Milk;
+import hasan.aziz.cocktail_project.Logger.Logger;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +26,7 @@ public class Blender {
         return isBlended;
     }
 
-    public Blender(double capacity) {
+    public Blender(int capacity, Logger logger) {
         this.capacity = capacity;
     }
 
